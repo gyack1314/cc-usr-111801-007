@@ -2,10 +2,7 @@
   "kind": "drawing",
   "id": "drawing-B",
   "revision": "v1",
-  "phase": "一期",
-  "jurisdiction": "乙地",
-  "references": [
-    "notice-A"
-  ],
-  "verified": false
+  "plant": "燕山厂区",
+  "connection": "C-1",
+  "border_segment": "S-1"
 }

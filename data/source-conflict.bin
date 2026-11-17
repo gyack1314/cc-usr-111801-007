@@ -2,10 +2,9 @@
   "kind": "notice",
   "id": "notice-A",
   "revision": "v1",
-  "phase": "一期",
-  "jurisdiction": "丙地",
-  "references": [
-    "drawing-B"
-  ],
-  "attachment": "source-2.bin"
+  "plant": "燕山厂区",
+  "connection": "C-1",
+  "drawing": "D-1",
+  "source": "enterprise",
+  "source_revision": "conflicting-copy"
 }
