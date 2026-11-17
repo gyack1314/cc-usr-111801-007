@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://source-007.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-007.example.test/records/notice-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 182,
+        "sha256": "a4c37ed90fcdc2f2645d896855da49de69b05fbc75bcef440921823661c68d07"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://source-007.example.test/records/drawing-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 172,
+        "sha256": "60763f6ea4dd07cec37c80942565d1294a1a359c09220c6bc4f0377c8a958ee4"
+      }
+    }
+  ]
+}
